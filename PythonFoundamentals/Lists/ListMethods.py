@@ -2,7 +2,10 @@
 # append()	Adds an element at the end of the list
 # clear()	Removes all the elements from the list
 # copy()	Returns a copy of the list
+
 # count()	Returns the number of elements with the specified value
+this_list = [1, 3, 7, 8, 7, 5, 4, 6, 8, 5]
+print(this_list.count(5)) # returns number of times 5 appears in this_list
 # extend()	Add the elements of a list (or any iterable), to the end of the current list
 # index()	Returns the index of the first element with the specified value
 # insert()	Adds an element at the specified position
