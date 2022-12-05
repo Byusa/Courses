@@ -18,7 +18,7 @@ x = ("apple", "banana", "cherry")
 print(type(x))
 x = range(6)
 print(x) # range(0, 6)
-print(type(x)) # <class 'range'>
+print(type(x)) # <type 'range'>
 # Mapping Types: dict
 x = {"name" : "John", "age" : 36}
 print(type(x))

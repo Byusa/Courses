@@ -24,7 +24,7 @@ list3 = [True, False, False]
 list1 = ["abc", 34, True, 40, "male"]
 
 # Type()
-# <class 'list'>
+# <type 'list'>
 print(type(list3))
 
 # The list() Constructor
