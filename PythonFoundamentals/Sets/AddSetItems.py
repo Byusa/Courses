@@ -18,3 +18,7 @@ mylist = ["kiwi", "orange"]
 thisset.update(mylist)
 print(thisset)
 
+# thisset2 = {"apple", "banana", "cherry"}
+# myDict ={ {"a":1},  {"b":2},  {"c":3} }
+# thisset2.update(myDict)
+# print(thisset2)
