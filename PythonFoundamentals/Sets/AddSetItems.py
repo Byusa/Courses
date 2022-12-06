@@ -18,7 +18,16 @@ mylist = ["kiwi", "orange"]
 thisset.update(mylist)
 print(thisset)
 
-# thisset2 = {"apple", "banana", "cherry"}
-# myDict ={ {"a":1},  {"b":2},  {"c":3} }
-# thisset2.update(myDict)
+thisset2 = {"apple", "banana", "cherry"}
+myDict = {"name": "Serge", "age":29, "Profession":"Software Engineer"}
+thisset2.update(myDict)
+print(thisset2)
+thisset2 = {"apple", "banana", "cherry"}
+# myList = [
+# 	{"name": "Serge", "age":29, "Profession":"Software Engineer"},
+#     {"name": "Beza", "age":24, "Profession":"Nurse"},
+#     {"name": "Taha", "age":23, "Profession":"Software Engineer"}
+	
+# ]
+# thisset2.update(myList)
 # print(thisset2)
