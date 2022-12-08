@@ -24,5 +24,5 @@ print(set1)
 print(type(set1))
 
 # The set() Constructor
-set_const = set({"apple", "banana", "cherry"})
+set_const = set(("apple", "banana", "cherry"))
 print(set_const)
