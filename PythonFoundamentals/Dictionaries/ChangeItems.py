@@ -12,4 +12,3 @@ print(thisdict)
 # update()
 thisdict.update({"year": 2022})
 print(thisdict)
-
