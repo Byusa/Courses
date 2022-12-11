@@ -18,3 +18,16 @@ print(thislist[-4:-1]) #["orange", "kiwi", "melon"]
 # Check if Item exists 
 if "apple" in thislist:
     print("apple exists")
+
+# Loop in reverse
+numbers = [ 7,9,10,14,15]
+
+for i in reversed(range(len(numbers))):
+    print(numbers[i])
+# k=3
+
+# for num in numbers[:-5]:
+#     print(num)
+# for num in numbers[-k:]:
+#     print(num)
+
