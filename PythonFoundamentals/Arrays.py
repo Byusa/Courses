@@ -46,3 +46,23 @@ print(cars)
 
 
 
+# example
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        # grid = new int[m][n];
+        grid = [[0 for x in range(n)] for y in range(m)]
+        print(grid)
+        for i in range(m):
+            for j in range(n):
+                if i==0 or j==0:
+                    grid[i][j] = 1 #if it was a straigh line it will be one path
+                else:
+                    grid[i][j] = grid[i][j-1] + grid[i-1][j]
+        return grid[m-1][n-1]
+
+        # (3,7)
+        # [
+        #   [1, 1, 1, 1,  1,  1,  1], 
+        #   [1, 2, 3, 4,  5,  6,  7], 
+        #   [1, 3, 6, 10, 15, 21, 28]
+        # ]
