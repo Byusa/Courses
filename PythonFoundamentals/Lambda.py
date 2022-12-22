@@ -31,4 +31,19 @@ print(mydoubler(11))
 mytripler = myfunc(3)
 print(mytripler(11))
 
+# sort a 2d list by first value
+my_list = [[0,30],[5,10],[15,20]]
+# my_list.sort(key=lambda x: x[0])
+# sort a 2d list by first value if the first value is the same sort by the second value
+my_list2 = [[9,10], [4,9], [4,17]]
+my_list2.sort(key=lambda x: (x[0], x[1]))
+print(my_list2)
+
+
+# Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
+
+# Example 1:
+#  my_list2 = [[9,10], [4,9], [4,17]]
+# Input: intervals = [[0,30],[5,10],[15,20]]
+# Output: 2
 
