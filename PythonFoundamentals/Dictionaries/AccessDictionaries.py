@@ -42,5 +42,16 @@ print(x)
 if "make" in thisdict:
   print("yes, it is")
 
+# getting the first key 
+my_dict = {1:"Water", 2:"Alcohol", 3:"beer"}
+keys  = list(my_dict.keys())
+print(keys)
+first_key = list(my_dict.keys())[0]
+print(first_key)
+last_key = list(my_dict.keys())[-1]
+print(last_key)
+
+
+
 
 
