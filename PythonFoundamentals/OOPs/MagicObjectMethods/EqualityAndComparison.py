@@ -31,7 +31,6 @@ class Book:
         return self.price < value.price
 
 
-
 b1 = Book("I will teach you to be rich", "Raj", 40)
 b2 = Book("Think and grow rich", "Napoleon Hill", 29.95)
 b3 = Book("I will teach you to be rich", "Raj", 40)
