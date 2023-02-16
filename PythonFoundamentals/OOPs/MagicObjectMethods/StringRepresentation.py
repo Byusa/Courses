@@ -28,3 +28,6 @@ print(repr(b1))
 
 # It is usually recommended to create a __repr__
 # for class you create to make debugging easier
+
+# it is preferable to use the repr() method over the str() method when
+# =>> You need an exact representattion of the object during development and debuggind tasks
