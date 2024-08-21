@@ -1,1 +1,101 @@
-node_modules
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Logs
+logs
+*.log
+*.log.*
+logs/
+
+# Build artifacts
+dist/
+build/
+.tmp/
+.out/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python dependencies and artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.env
+
+# Django specific
+*.sqlite3
+db.sqlite3
+*.pyc
+migrations/
+
+# React Native
+android/
+ios/
+*.keystore
+*.lock
+*.iml
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Package files
+*.tgz
+*.tar.gz
+
+# Runtime files
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled files
+*.o
+*.so
+*.exe
+*.dll
+*.out
+
+# Compiled source files
+*.d.ts
+
+# Binary files
+*.exe
+*.out
+*.dll
+*.so
+
+# Other
+!README.md
